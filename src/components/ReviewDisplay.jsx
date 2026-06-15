@@ -122,26 +122,26 @@ const ReviewDisplay = ({
 
       {/* STEPS */}
       <div className="review-steps">
-        <div className="step-item">
-          <span className="step-num">1</span>
-          <span className="step-text">Kisi bhi review ko copy karo</span>
-        </div>
+  <div className="step-item">
+    <span className="step-num">1</span>
+    <span className="step-text">Copy any review</span>
+  </div>
 
-        <div className="step-item">
-          <span className="step-num">2</span>
-          <span className="step-text">Google Reviews page khulega</span>
-        </div>
+  <div className="step-item">
+    <span className="step-num">2</span>
+    <span className="step-text">The Google Reviews page will open</span>
+  </div>
 
-        <div className="step-item">
-          <span className="step-num">3</span>
-          <span className="step-text">Paste karke review post kar do</span>
-        </div>
-      </div>
+  <div className="step-item">
+    <span className="step-num">3</span>
+    <span className="step-text">Paste the review and post it</span>
+  </div>
+</div>
 
-      {/* DISCLAIMER */}
-      <p className="disclaimer">
-        🔒 Aapka review directly Google par post hoga. Hum kuch save nahi karte.
-      </p>
+{/* DISCLAIMER */}
+<p className="disclaimer">
+  🔒 Your review will be posted directly on Google. We do not store any data.
+</p>
     </div>
   );
 };
